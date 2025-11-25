@@ -7,7 +7,7 @@ Based on the SightAI platform ecosystem, we now have **three distinct blockchain
 
 ---
 
-## Project 1: TrustChain (Authorization & Usage Control)
+## Project 1: Enhanced-AI-App-Platform (Authorization & Usage Control)
 ### *"User Authorization and Usage Limit Management"*
 
 **Focus**: Protecting users from overspending and ensuring apps respect limits
@@ -41,7 +41,7 @@ Based on the SightAI platform ecosystem, we now have **three distinct blockchain
 
 ---
 
-## Project 2: ModelChain (Model Registry & Routing)
+## Project 2: Multi-Model-Routing-System (Model Registry & Routing)
 ### *"Decentralized AI Model Discovery and Reputation"*
 
 **Focus**: Creating trust in AI model capabilities and performance
@@ -76,7 +76,7 @@ Based on the SightAI platform ecosystem, we now have **three distinct blockchain
 
 ---
 
-## Project 3: SettleChain (Multi-Modal Settlement)
+## Project 3: Trustless-Audit-System (Multi-Modal Settlement)
 ### *"Settlement and Dispute Resolution for AI Services"*
 
 **Focus**: Transparent settlement for high-value multi-modal AI services
@@ -113,7 +113,7 @@ Based on the SightAI platform ecosystem, we now have **three distinct blockchain
 
 ## Detailed Comparison Matrix
 
-| Aspect | TrustChain | ModelChain | SettleChain |
+| Aspect | Enhanced-AI-App-Platform | Multi-Model-Routing-System | Trustless-Audit-System |
 |--------|------------|------------|-------------|
 | **Primary Stakeholder** | End Users | Model Providers | API Providers |
 | **Transaction Value** | Low-Medium | Medium | High ($50 videos) |
@@ -133,21 +133,21 @@ Based on the SightAI platform ecosystem, we now have **three distinct blockchain
 
 ## Learning Outcomes by Project
 
-### TrustChain Learning Outcomes
+### Enhanced-AI-App-Platform Learning Outcomes
 ✅ Authorization patterns in smart contracts  
 ✅ Usage limit enforcement mechanisms  
 ✅ Emergency controls and pausability  
 ✅ User-centric blockchain design  
 ✅ Gas-efficient storage patterns  
 
-### ModelChain Learning Outcomes
+### Multi-Model-Routing-System Learning Outcomes
 ✅ Decentralized registries  
 ✅ Staking and slashing mechanisms  
 ✅ Oracle design patterns  
 ✅ Reputation algorithms  
 ✅ Merkle tree audit trails  
 
-### SettleChain Learning Outcomes
+### Trustless-Audit-System Learning Outcomes
 ✅ Multi-modal system design  
 ✅ High-value settlement systems  
 ✅ Complex dispute resolution  
@@ -165,17 +165,17 @@ Based on the SightAI platform ecosystem, we now have **three distinct blockchain
 - Basic Merkle Tree understanding
 - Git/GitHub
 
-### TrustChain Specific
+### Enhanced-AI-App-Platform Specific
 - Simple state management
 - Basic cryptography (hashing)
 - Event emission patterns
 
-### ModelChain Specific
+### Multi-Model-Routing-System Specific
 - IPFS for model metadata
 - The Graph for indexing
 - Advanced Merkle proofs
 
-### SettleChain Specific
+### Trustless-Audit-System Specific
 - Complex struct management
 - Batch processing patterns
 - Time-locked operations
@@ -185,7 +185,7 @@ Based on the SightAI platform ecosystem, we now have **three distinct blockchain
 
 ## Suggested Student Profiles
 
-### Who Should Choose TrustChain?
+### Who Should Choose Enhanced-AI-App-Platform?
 **Profile**: Intermediate blockchain developers
 - Comfortable with Solidity basics
 - Interested in user protection
@@ -197,7 +197,7 @@ Based on the SightAI platform ecosystem, we now have **three distinct blockchain
 - Web3 authentication systems
 - Decentralized identity
 
-### Who Should Choose ModelChain?
+### Who Should Choose Multi-Model-Routing-System?
 **Profile**: Advanced students interested in AI
 - Understanding of ML models
 - Interest in reputation systems
@@ -209,7 +209,7 @@ Based on the SightAI platform ecosystem, we now have **three distinct blockchain
 - Decentralized AI networks
 - Oracle protocol development
 
-### Who Should Choose SettleChain?
+### Who Should Choose Trustless-Audit-System?
 **Profile**: Advanced students interested in DeFi
 - Strong understanding of economics
 - Interest in financial systems
@@ -227,7 +227,7 @@ Based on the SightAI platform ecosystem, we now have **three distinct blockchain
 
 ### Week-by-Week Effort Comparison
 
-| Week | TrustChain | ModelChain | SettleChain |
+| Week | Enhanced-AI-App-Platform | Multi-Model-Routing-System | Trustless-Audit-System |
 |------|------------|------------|-------------|
 | 1-2 | Auth Registry (Simple) | Model Registry (Medium) | Settlement Registry (Complex) |
 | 3-4 | Usage Tracking (Simple) | Routing Audit (Medium) | Pricing Oracle (Complex) |
@@ -237,28 +237,28 @@ Based on the SightAI platform ecosystem, we now have **three distinct blockchain
 | 8 | Demo & Docs | Demo & Docs | Demo & Docs |
 
 **Estimated Hours/Week**:
-- TrustChain: 5-6 hours
-- ModelChain: 6-8 hours  
-- SettleChain: 8-10 hours
+- Enhanced-AI-App-Platform: 5-6 hours
+- Multi-Model-Routing-System: 6-8 hours
+- Trustless-Audit-System: 8-10 hours
 
 ---
 
 ## Real-World Relevance Score
 
 ### Industry Demand (out of 5)
-- TrustChain: ⭐⭐⭐⭐ (High - everyone needs auth)
-- ModelChain: ⭐⭐⭐⭐⭐ (Very High - AI is hot)
-- SettleChain: ⭐⭐⭐⭐ (High - settlements are critical)
+- Enhanced-AI-App-Platform: ⭐⭐⭐⭐ (High - everyone needs auth)
+- Multi-Model-Routing-System: ⭐⭐⭐⭐⭐ (Very High - AI is hot)
+- Trustless-Audit-System: ⭐⭐⭐⭐ (High - settlements are critical)
 
 ### Innovation Level (out of 5)
-- TrustChain: ⭐⭐⭐ (Solid, proven patterns)
-- ModelChain: ⭐⭐⭐⭐⭐ (Cutting edge AI + blockchain)
-- SettleChain: ⭐⭐⭐⭐ (Novel multi-modal approach)
+- Enhanced-AI-App-Platform: ⭐⭐⭐ (Solid, proven patterns)
+- Multi-Model-Routing-System: ⭐⭐⭐⭐⭐ (Cutting edge AI + blockchain)
+- Trustless-Audit-System: ⭐⭐⭐⭐ (Novel multi-modal approach)
 
 ### Portfolio Impact (out of 5)
-- TrustChain: ⭐⭐⭐ (Good foundational project)
-- ModelChain: ⭐⭐⭐⭐⭐ (Unique, stands out)
-- SettleChain: ⭐⭐⭐⭐ (Shows complex thinking)
+- Enhanced-AI-App-Platform: ⭐⭐⭐ (Good foundational project)
+- Multi-Model-Routing-System: ⭐⭐⭐⭐⭐ (Unique, stands out)
+- Trustless-Audit-System: ⭐⭐⭐⭐ (Shows complex thinking)
 
 ---
 
@@ -270,19 +270,19 @@ Based on the SightAI platform ecosystem, we now have **three distinct blockchain
 Start: What's your primary interest?
 │
 ├─> User Protection & Authorization
-│   └─> Choose TrustChain
+│   └─> Choose Enhanced-AI-App-Platform
 │       - Focus: Usage limits & authorization
 │       - Difficulty: Medium
 │       - Time: 5-6 hours/week
 │
 ├─> AI Infrastructure & Models
-│   └─> Choose ModelChain
+│   └─> Choose Multi-Model-Routing-System
 │       - Focus: Model registry & reputation
 │       - Difficulty: Medium-Hard
 │       - Time: 6-8 hours/week
 │
 └─> Financial Systems & Settlements
-    └─> Choose SettleChain
+    └─> Choose Trustless-Audit-System
         - Focus: Multi-modal settlements
         - Difficulty: Hard
         - Time: 8-10 hours/week
@@ -294,17 +294,17 @@ Start: What's your primary interest?
 
 ### Advanced Option: Progressive Learning
 
-**Semester 1**: TrustChain (Foundation)
+**Semester 1**: Enhanced-AI-App-Platform (Foundation)
 - Learn basic blockchain patterns
 - Build authorization system
 - Master gas optimization
 
-**Semester 2**: ModelChain (Intermediate)
+**Semester 2**: Multi-Model-Routing-System (Intermediate)
 - Add reputation systems
 - Learn oracle patterns
 - Master merkle proofs
 
-**Semester 3**: SettleChain (Advanced)
+**Semester 3**: Trustless-Audit-System (Advanced)
 - Combine all knowledge
 - Add financial complexity
 - Master dispute resolution
@@ -315,19 +315,19 @@ Start: What's your primary interest?
 
 ## Resources Provided for Each
 
-### TrustChain Resources
+### Enhanced-AI-App-Platform Resources
 - Authorization pattern examples
 - Gas optimization guide
 - Emergency pattern templates
 - Sample test suites
 
-### ModelChain Resources
+### Multi-Model-Routing-System Resources
 - Model metadata schemas
 - Reputation algorithm examples
 - Oracle design patterns
 - Staking mechanism templates
 
-### SettleChain Resources
+### Trustless-Audit-System Resources
 - Off-chain verification guide
 - Dispute resolution examples
 - Payment distribution patterns
@@ -338,40 +338,40 @@ Start: What's your primary interest?
 ## Success Metrics
 
 ### Minimum Success (C Grade)
-- **TrustChain**: Basic auth working, limits enforced
-- **ModelChain**: Registry functional, basic reputation
-- **SettleChain**: Settlements commit, simple disputes
+- **Enhanced-AI-App-Platform**: Basic auth working, limits enforced
+- **Multi-Model-Routing-System**: Registry functional, basic reputation
+- **Trustless-Audit-System**: Settlements commit, simple disputes
 
 ### Good Success (B Grade)
-- **TrustChain**: All features, gas optimized
-- **ModelChain**: Full routing audit, reputation working
-- **SettleChain**: All modalities, dispute resolution
+- **Enhanced-AI-App-Platform**: All features, gas optimized
+- **Multi-Model-Routing-System**: Full routing audit, reputation working
+- **Trustless-Audit-System**: All modalities, dispute resolution
 
 ### Excellent Success (A Grade)
-- **TrustChain**: Production ready, great UX
-- **ModelChain**: Advanced reputation, cross-chain
-- **SettleChain**: Complex disputes, batch payments
+- **Enhanced-AI-App-Platform**: Production ready, great UX
+- **Multi-Model-Routing-System**: Advanced reputation, cross-chain
+- **Trustless-Audit-System**: Complex disputes, batch payments
 
 ---
 
 ## Final Recommendations
 
 ### For Beginners
-**Start with**: TrustChain
+**Start with**: Enhanced-AI-App-Platform
 - Clear requirements
 - Manageable scope
 - Practical applications
 - Good learning curve
 
 ### For Intermediate Students
-**Choose**: ModelChain
+**Choose**: Multi-Model-Routing-System
 - Interesting challenges
 - Hot market (AI)
 - Unique portfolio piece
 - Good complexity balance
 
 ### For Advanced Students
-**Challenge yourself with**: SettleChain
+**Challenge yourself with**: Trustless-Audit-System
 - Complex requirements
 - Real financial impact
 - Multiple systems integration
@@ -379,8 +379,8 @@ Start: What's your primary interest?
 
 ### For Overachievers
 **Do multiple projects**:
-1. Start with TrustChain (4 weeks compressed)
-2. Then ModelChain or SettleChain (8 weeks full)
+1. Start with Enhanced-AI-App-Platform (4 weeks compressed)
+2. Then Multi-Model-Routing-System or Trustless-Audit-System (8 weeks full)
 3. Optional: Add ZK extension to any project
 
 ---
@@ -406,18 +406,18 @@ Start: What's your primary interest?
 
 ### Grading Considerations
 - Adjust expectations per project difficulty
-- SettleChain gets bonus points for complexity
-- TrustChain needs polish for A grade
-- ModelChain needs innovation for A grade
+- Trustless-Audit-System gets bonus points for complexity
+- Enhanced-AI-App-Platform needs polish for A grade
+- Multi-Model-Routing-System needs innovation for A grade
 
 ---
 
 ## Conclusion
 
 These three projects offer a comprehensive blockchain education covering:
-- **Authorization** (TrustChain)
-- **Reputation** (ModelChain)  
-- **Settlement** (SettleChain)
+- **Authorization** (Enhanced-AI-App-Platform)
+- **Reputation** (Multi-Model-Routing-System)
+- **Settlement** (Trustless-Audit-System)
 
 Together, they represent the full spectrum of blockchain applications in the AI service economy. Students can choose based on their interests, skill level, and career goals.
 

@@ -1,7 +1,7 @@
 # NTU Blockchain Capstone: Decentralized Model Registry and Routing Audit System
 
 ## Project Title
-**"ModelChain: Blockchain-Based Trust Layer for AI Model Routing and Performance Verification"**
+**"Model: Blockchain-Based Trust Layer for AI Model Routing and Performance Verification"**
 
 ## Executive Summary
 

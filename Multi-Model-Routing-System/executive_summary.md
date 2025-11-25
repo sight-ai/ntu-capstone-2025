@@ -1,4 +1,4 @@
-# ModelChain: Blockchain Capstone Project Summary
+# Model: Blockchain Capstone Project Summary
 ## Decentralized AI Model Registry & Trust System
 
 ### 🎯 Project Vision

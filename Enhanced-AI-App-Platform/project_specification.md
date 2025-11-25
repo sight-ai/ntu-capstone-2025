@@ -1,8 +1,8 @@
-# NTU Blockchain Capstone: TrustChain for AI App Platform
+# NTU Blockchain Capstone: Trust for AI App Platform
 ## Executive Summary for Academic Review
 
 ### Project Overview
-**Title**: TrustChain - Decentralized Authorization and Usage Control System for AI Application Platform
+**Title**: Trust - Decentralized Authorization and Usage Control System for AI Application Platform
 
 **Duration**: 8 weeks (Half semester)
 
@@ -72,6 +72,25 @@ Traditional Platform (Fast)     ←→     Blockchain Layer (Trustless)
 • Payment processing                   • Public audit trail
 ```
 
+## Key Design Challenge: Model Access Scope
+
+**The Central Question:** How do you design a system where users can authorize apps to access specific AI models or model families, with the flexibility to grant either broad access (e.g., "all GPT-4 models") or narrow access (e.g., "only gpt-3.5-turbo")?
+
+This is not a predefined solution - students must:
+1. **Research** different approaches (merkle trees, bitmaps, mappings, enums)
+2. **Design** a solution that balances gas efficiency, flexibility, and security
+3. **Justify** their design choices with trade-off analysis
+4. **Implement** and test their solution
+
+**Success Criteria:** The solution should elegantly handle:
+- ✅ Family-level access: "Claude family" grants access to all Claude models
+- ✅ Specific model access: "gpt-4-turbo" grants access only to that model
+- ✅ Mixed granularity: Users can mix both approaches in one authorization
+- ✅ Future extensibility: New models can be added without breaking existing authorizations
+- ✅ Gas efficiency: Checking scope shouldn't cost excessive gas
+
+---
+
 ## Core Project Components
 
 ### Component 1: Smart Contract Authorization Registry (40% of work)
@@ -104,23 +123,63 @@ contract AuthorizationRegistry {
 }
 ```
 
-**Scope Management System**
-- Implement merkle tree for efficient scope storage
-- Scope verification without revealing all permissions
-- Dynamic scope updates with user consent
+**Scope Management System - Design Challenge**
+
+Students must design and implement a scope management system that controls **which AI models an app can access**. The scope should support both:
+
+1. **Model Family Level** (e.g., "GPT-4 family", "Claude family", "Gemini family")
+2. **Specific Model Level** (e.g., "gpt-4-turbo", "claude-3-opus", "gemini-pro")
+
+**Design Questions for Students:**
+- How to efficiently store scope on-chain? (Merkle tree? Bitmap? Enumeration?)
+- How to balance flexibility vs gas costs?
+- Should scope be expandable (add models) vs restrictive (remove models)?
+- How to handle new models added to the platform?
+- How to verify scope without revealing all permissions?
+
+**Requirements:**
+- Support hierarchical scope (family → specific models)
+- Allow dynamic scope updates with user consent
+- Gas-efficient storage and verification
+- Clear revocation mechanisms
 
 **Usage Limit Controls**
 - Token consumption limits (per request, daily, monthly)
 - Request count limits
-- Model-specific restrictions (e.g., GPT-4 vs GPT-3.5)
+- Model-specific restrictions (integrated with scope management)
 - Cost caps in USD equivalent
+
+**Example Scenarios:**
+```
+Scenario 1: Broad Access
+- User authorizes "ChatApp" with scope: ["GPT-4 family", "Claude family"]
+- Monthly limit: 100,000 tokens
+- The app can use gpt-4, gpt-4-turbo, claude-3-opus, claude-3-sonnet
+
+Scenario 2: Restricted Access
+- User authorizes "BudgetBot" with scope: ["gpt-3.5-turbo"]
+- Monthly limit: 10,000 tokens
+- The app can ONLY use gpt-3.5-turbo
+
+Scenario 3: Mixed Granularity
+- User authorizes "SmartAssistant" with scope: ["Claude family", "gpt-4-turbo"]
+- Monthly limit: 50,000 tokens
+- The app can use all Claude models + specifically gpt-4-turbo (but not other GPT models)
+```
 
 #### Deliverables:
 1. Smart contract with comprehensive authorization logic
 2. Multi-level limit enforcement (token, request, cost)
-3. Scope management via merkle trees
+3. **Scope management system with design justification** (supporting both model family and specific model access)
 4. Emergency pause and revocation mechanisms
 5. Gas-optimized storage patterns
+
+**Evaluation Criteria for Scope Design:**
+- Correctness: Does it properly enforce model access control?
+- Efficiency: What's the gas cost for grant/update/check operations?
+- Flexibility: Can it handle future model additions?
+- Security: Are there any bypass vulnerabilities?
+- Usability: Is it intuitive for users and developers?
 
 ### Component 2: App Verification System (30% of work)
 
@@ -340,48 +399,57 @@ class PlatformIntegration {
 
 ### Core Implementation (50%)
 - Authorization Registry completeness
-- Limit enforcement accuracy  
-- Scope management functionality
+- Limit enforcement accuracy
+- **Scope management design and implementation** (model family + specific model support)
 - Code quality and structure
 
-### Security & Testing (25%)
+### Design & Justification (20%)
+- Quality of scope management design
+- Trade-off analysis (gas vs flexibility vs security)
+- Documentation of design decisions
+- Alternative approaches considered
+
+### Security & Testing (15%)
 - No critical vulnerabilities
 - Comprehensive test coverage (>80%)
 - Proper access controls
 - Input validation
 
-### Innovation (15%)
-- Creative solutions to problems
+### Innovation (10%)
+- Creative solutions to scope management problem
 - Gas optimization techniques
 - Additional features beyond requirements
 
-### Documentation & Presentation (10%)
+### Documentation & Presentation (5%)
 - Clear code documentation
-- Architecture diagrams
-- Demo quality
-- Presentation clarity
+- Architecture diagrams including scope design
+- Demo quality showing different scope scenarios
+- Presentation clarity with design justification
 
 ## Success Metrics
 
 ### Minimum Viable Product
 - [ ] Authorization lifecycle working (grant, update, revoke)
 - [ ] Token and request limits enforced
+- [ ] **Basic scope system supporting specific models** (e.g., can grant access to "gpt-4-turbo")
 - [ ] Basic app verification
 - [ ] Usage tracking functional
 - [ ] Gas cost < 200k for authorization
 
 ### Good Implementation
 - [ ] All MVP features plus:
-- [ ] Merkle tree scope management
+- [ ] **Scope system supporting BOTH model families AND specific models**
+- [ ] Design documentation with trade-off analysis
 - [ ] Batch operations
-- [ ] Comprehensive testing
+- [ ] Comprehensive testing with multiple scope scenarios
 - [ ] Gas cost < 150k for authorization
 
 ### Excellent Implementation
 - [ ] All above plus:
+- [ ] **Elegant, innovative scope design with strong justification**
 - [ ] Advanced features (ZK proofs or cross-chain)
 - [ ] Production-ready security
-- [ ] Innovative solutions
+- [ ] Multiple scope design alternatives explored and compared
 - [ ] Gas cost < 100k for authorization
 
 ## Resources Provided

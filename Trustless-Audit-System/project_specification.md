@@ -1,7 +1,7 @@
 # NTU Blockchain Capstone: On-Chain Settlement Layer for Multi-Modal AI Services
 
 ## Project Title
-**"SettleChain: Blockchain-Based Verifiable Settlement System for Multi-Modal AI Platforms"**
+**"Settle: Blockchain-Based Verifiable Settlement System for Multi-Modal AI Platforms"**
 
 ## Executive Summary
 

@@ -1,4 +1,4 @@
-# SettleChain: Blockchain Settlement Layer Executive Summary
+# Settle: Blockchain Settlement Layer Executive Summary
 ## Multi-Modal AI Service Settlement on Blockchain
 
 ### 🎯 Project Vision
