@@ -151,7 +151,7 @@ By completing any of these projects, students will gain:
 ## Resources
 
 - **Weekly Office Hours:** For project guidance and code review
-- **Test Networks:** Sepolia/Mumbai testnet tokens provided
+- **Test Networks:** Sepolia testnet tokens provided
 - **Example Contracts:** Reference implementations available
 - **Integration Tests:** Mock integration test suites
 

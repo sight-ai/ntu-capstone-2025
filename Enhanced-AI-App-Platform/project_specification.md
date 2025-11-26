@@ -365,7 +365,7 @@ These are optional enhancements for exceptional students:
 - **Framework**: Hardhat or Foundry
 - **Testing**: Mocha/Chai or Forge tests
 - **Frontend**: Basic React app for demo
-- **Network**: Sepolia/Mumbai testnet
+- **Network**: Sepolia testnet
 
 ### Integration Points
 Students will create mock integrations to demonstrate:

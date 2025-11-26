@@ -59,7 +59,7 @@ registerModel({
 ```solidity
 // Every hour, commit a summary of routing decisions
 commitRoutingBatch({
-    period: "2024-01-15-14:00",
+    period: "2025-01-15-14:00",
     totalRequests: 10000,
     routingMerkleRoot: 0xabc...def,  // Proof of all decisions
     topModels: [
@@ -83,7 +83,7 @@ commitRoutingBatch({
 // Record actual performance
 reportPerformance({
     model: "GPT-4",
-    period: "2024-01-15",
+    period: "2025-01-15",
     avgLatency: 1150ms,     // Promised: 1200ms ✓
     successRate: 99.5%,     // Promised: 99% ✓
     violations: 0

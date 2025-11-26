@@ -218,7 +218,7 @@ Create integration demo and basic frontend
 
 ### Checklist
 - [ ] **Contract Deployment**
-  - [ ] Deploy to testnet (Sepolia/Mumbai)
+  - [ ] Deploy to testnet (Sepolia)
   - [ ] Verify contract on Etherscan
   - [ ] Document contract addresses
   - [ ] Create deployment script
